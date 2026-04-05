@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBN Resort — Luxury Arabian Paradise</title>
+    <meta name="description"
+        content="Experience royal Arabian luxury at CBN Resort. Premium suites, world-class dining, infinity pool, spa & wellness — your palace awaits.">
+    <meta name="keywords"
+        content="CBN Resort, luxury resort, Arabian hotel, premium accommodation, fine dining, spa, wellness">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ════════════════ PRELOADER ═════════════════ -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-ornament"></div>
+            <h2 class="preloader-title">CBN Resort</h2>
+            <div class="preloader-bar">
+                <div class="preloader-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════════════ NAVIGATION ═══════════════════ -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" id="nav-logo">
+                <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 2L24 10L33 12L26 19L28 28L20 24L12 28L14 19L7 12L16 10L20 2Z" fill="currentColor" />
+                    <circle cx="20" cy="20" r="6" fill="none" stroke="currentColor" stroke-width="1.5" />
+                </svg>
+                <span>CBN Resort</span>
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#rooms" class="nav-link">Rooms</a></li>
+                <li><a href="#amenities" class="nav-link">Amenities</a></li>
+                <li><a href="#dining" class="nav-link">Dining</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <a href="#contact" class="nav-cta" id="nav-cta">Book Now</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ═══════════════════ HERO SECTION ═══════════════════ -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero.png" alt="CBN Resort exterior" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-particles" id="hero-particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-star">✦</span>
+                <span>Premium Luxury Resort</span>
+                <span class="badge-star">✦</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="hero-title-line">Welcome to</span>
+                <span class="hero-title-main">CBN <em>Resort</em></span>
+            </h1>
+            <p class="hero-subtitle">Where Arabian Royalty Meets Modern Luxury</p>
+            <div class="hero-divider">
+                <span class="divider-diamond">◆</span>
+                <span class="divider-line"></span>
+                <span class="divider-diamond">◆</span>
+                <span class="divider-line"></span>
+                <span class="divider-diamond">◆</span>
+            </div>
+            <div class="hero-cta-group">
+                <a href="#rooms" class="btn btn-primary" id="hero-explore-btn">Explore Rooms</a>
+                <a href="#contact" class="btn btn-outline" id="hero-book-btn">Book Your Stay</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ ARABESQUE DIVIDER ═══════════════════ -->
+    <div class="arabesque-divider">
+        <svg viewBox="0 0 1200 80" preserveAspectRatio="none">
+            <path d="M0,40 Q150,0 300,40 Q450,80 600,40 Q750,0 900,40 Q1050,80 1200,40" stroke="var(--gold)"
+                stroke-width="1" fill="none" opacity="0.4" />
+            <path d="M0,40 Q150,80 300,40 Q450,0 600,40 Q750,80 900,40 Q1050,0 1200,40" stroke="var(--gold)"
+                stroke-width="1" fill="none" opacity="0.4" />
+        </svg>
+    </div>
+
+    <!-- ═══════════════════ ABOUT SECTION ═══════════════════ -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image reveal-left">
+                    <div class="about-image-frame">
+                        <img src="images/garden.png" alt="CBN Resort courtyard" loading="lazy">
+                        <div class="image-frame-border"></div>
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="experience-number">15+</span>
+                        <span class="experience-text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content reveal-right">
+                    <span class="section-tag">Our Legacy</span>
+                    <h2 class="section-title">A Palace of<br><em>Timeless Elegance</em></h2>
+                    <div class="section-ornament">
+                        <span>✦</span><span>◆</span><span>✦</span>
+                    </div>
+                    <p class="about-text">
+                        Nestled in the heart of paradise, CBN Resort is a sanctuary where ancient Arabian grandeur meets
+                        contemporary luxury. Every arch, every mosaic, and every detail has been crafted to transport
+                        you to an era of opulence and wonder.
+                    </p>
+                    <p class="about-text">
+                        From the moment you step through our gilded gates, you are embraced by the warmth of legendary
+                        hospitality — where every guest is royalty and every moment becomes an unforgettable memory.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                                </svg>
+                            </span>
+                            <span class="stat-value">4.8</span>
+                            <span class="stat-label">Guest Rating</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" />
+                                </svg>
+                            </span>
+                            <span class="stat-value">50K+</span>
+                            <span class="stat-label">Happy Guests</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                    <polyline points="9,22 9,12 15,12 15,22" />
+                                </svg>
+                            </span>
+                            <span class="stat-value">86</span>
+                            <span class="stat-label">Luxury Rooms</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M12 6v6l4 2" />
+                                </svg>
+                            </span>
+                            <span class="stat-value">24/7</span>
+                            <span class="stat-label">Concierge</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ ROOMS SECTION ═══════════════════ -->
+    <section id="rooms" class="rooms section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Accommodation</span>
+                <h2 class="section-title">Royal Rooms &<br><em>Palatial Suites</em></h2>
+                <div class="section-ornament">
+                    <span>✦</span><span>◆</span><span>✦</span>
+                </div>
+                <p class="section-desc">Each room is a masterpiece of Arabian design, offering an intimate escape into
+                    luxury with breathtaking views and world-class amenities.</p>
+            </div>
+            <div class="rooms-grid">
+                <!-- Room Card 1 -->
+                <div class="room-card reveal-up" data-delay="0">
+                    <div class="room-card-image">
+                        <img src="images/room-deluxe.png" alt="Deluxe Chamber" loading="lazy">
+                        <div class="room-card-overlay">
+                            <span class="room-price">₹4,500<small>/night</small></span>
+                        </div>
+                        <div class="room-badge">Popular</div>
+                    </div>
+                    <div class="room-card-content">
+                        <h3 class="room-name">Deluxe Chamber</h3>
+                        <p class="room-desc">Elegantly appointed rooms with modern comforts, plush bedding, and city
+                            views through floor-to-ceiling windows.</p>
+                        <div class="room-features">
+                            <span class="room-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                                    <path d="M2 8h20" />
+                                </svg>
+                                King Bed
+                            </span>
+                            <span class="room-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <rect x="2" y="2" width="20" height="20" rx="2" />
+                                    <path d="M7 2v20M17 2v20M2 12h20" />
+                                </svg>
+                                City View
+                            </span>
+                            <span class="room-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1.5-2.5S8 9 8 7.5a2.5 2.5 0 0 1 5 0v1" />
+                                    <circle cx="10.5" cy="17.5" r="0.5" />
+                                </svg>
+                                Free WiFi
+                            </span>
+                        </div>
+                        <a href="#contact" class="btn btn-sm btn-primary" id="book-deluxe-btn">Reserve Now</a>
+                    </div>
+                </div>
+                <!-- Room Card 2 -->
+                <div class="room-card room-card-featured reveal-up" data-delay="200">
+                    <div class="room-card-image">
+                        <img src="images/room-royal.png" alt="Royal Suite" loading="lazy">
+                        <div class="room-card-overlay">
+                            <span class="room-price">₹12,000<small>/night</small></span>
+                        </div>
+                        <div class="room-badge room-badge-gold">Royal</div>
+                    </div>
+                    <div class="room-card-content">
+                        <h3 class="room-name">Royal Palace Suite</h3>
+                        <p class="room-desc">The crown jewel of CBN Resort — a sprawling suite with arabesque decor,
+                            private terrace, and dedicated butler service.</p>
+                        <div class="room-features">
+                            <span class="room-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                                    <path d="M2 8h20" />
+                                </svg>
+                                Emperor Bed
+                            </span>
+                            <span class="room-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                                    <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+                                </svg>
+                                Butler Service
+                            </span>
+                            <span class="room-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+                                </svg>
+                                Private Terrace
+                            </span>
+                        </div>
+                        <a href="#contact" class="btn btn-sm btn-primary" id="book-royal-btn">Reserve Now</a>
+                    </div>
+                </div>
+                <!-- Room Card 3 -->
+                <div class="room-card reveal-up" data-delay="400">
+                    <div class="room-card-image">
+                        <img src="images/pool.png" alt="Pool Villa" loading="lazy">
+                        <div class="room-card-overlay">
+                            <span class="room-price">₹18,000<small>/night</small></span>
+                        </div>
+                        <div class="room-badge">Exclusive</div>
+                    </div>
+                    <div class="room-card-content">
+                        <h3 class="room-name">Private Pool Villa</h3>
+                        <p class="room-desc">Your own private sanctuary with a plunge pool, lush garden, open-air
+                            lounge, and panoramic resort views.</p>
+                        <div class="room-features">
+                            <span class="room-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M2 12h20M2 12c0 4.42 4.48 8 10 8s10-3.58 10-8" />
+                                    <ellipse cx="12" cy="5" rx="4" ry="3" />
+                                </svg>
+                                Private Pool
+                            </span>
+                            <span class="room-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                    <circle cx="9" cy="7" r="4" />
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                </svg>
+                                2 Guests Max
+                            </span>
+                            <span class="room-feature">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <circle cx="12" cy="12" r="5" />
+                                    <path
+                                        d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                                </svg>
+                                Garden View
+                            </span>
+                        </div>
+                        <a href="#contact" class="btn btn-sm btn-primary" id="book-villa-btn">Reserve Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ AMENITIES SECTION ═══════════════════ -->
+    <section id="amenities" class="amenities section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Experiences</span>
+                <h2 class="section-title">World-Class<br><em>Amenities</em></h2>
+                <div class="section-ornament">
+                    <span>✦</span><span>◆</span><span>✦</span>
+                </div>
+            </div>
+            <div class="amenities-grid">
+                <div class="amenity-card reveal-up" data-delay="0">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4 36h40M8 36c0-8 4-12 4-20a8 8 0 1 1 16 0c0 8 4 12 4 20" />
+                            <path d="M24 16c4 0 8 2 8 8" />
+                            <circle cx="20" cy="14" r="2" />
+                        </svg>
+                    </div>
+                    <h3 class="amenity-name">Infinity Pool</h3>
+                    <p class="amenity-desc">Swim above the clouds in our stunning rooftop infinity pool with panoramic
+                        views.</p>
+                </div>
+                <div class="amenity-card reveal-up" data-delay="100">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="24" cy="24" r="8" />
+                            <path d="M24 4v8M24 36v8M4 24h8M36 24h8" />
+                            <path d="M10 10l6 6M32 32l6 6M10 38l6-6M32 16l6-6" />
+                        </svg>
+                    </div>
+                    <h3 class="amenity-name">Royal Spa</h3>
+                    <p class="amenity-desc">Ancient Arabian treatments blended with modern wellness therapies for total
+                        rejuvenation.</p>
+                </div>
+                <div class="amenity-card reveal-up" data-delay="200">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M8 40V20l16-12 16 12v20" />
+                            <rect x="16" y="28" width="8" height="12" />
+                            <rect x="28" y="24" width="6" height="6" />
+                            <rect x="14" y="20" width="6" height="6" />
+                        </svg>
+                    </div>
+                    <h3 class="amenity-name">Fine Dining</h3>
+                    <p class="amenity-desc">Three signature restaurants serving global cuisines prepared by
+                        world-renowned chefs.</p>
+                </div>
+                <div class="amenity-card reveal-up" data-delay="300">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="24" cy="20" r="12" />
+                            <path d="M24 8v12l8 4" />
+                            <path d="M16 38h16M20 42h8" />
+                        </svg>
+                    </div>
+                    <h3 class="amenity-name">Fitness Center</h3>
+                    <p class="amenity-desc">State-of-the-art gym with personal trainers, yoga classes, and wellness
+                        programs.</p>
+                </div>
+                <div class="amenity-card reveal-up" data-delay="400">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M24 4c6 8 16 14 16 24a16 16 0 0 1-32 0C8 18 18 12 24 4z" />
+                            <path d="M24 44v-16" />
+                            <path d="M18 34c0-4 6-8 6-12" />
+                        </svg>
+                    </div>
+                    <h3 class="amenity-name">Lush Gardens</h3>
+                    <p class="amenity-desc">Wander through our enchanting courtyard gardens with fountains and fragrant
+                        jasmine.</p>
+                </div>
+                <div class="amenity-card reveal-up" data-delay="500">
+                    <div class="amenity-icon">
+                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="6" y="10" width="36" height="28" rx="4" />
+                            <path d="M6 18h36" />
+                            <circle cx="16" cy="28" r="4" />
+                            <path d="M28 26h8M28 32h6" />
+                        </svg>
+                    </div>
+                    <h3 class="amenity-name">Event Halls</h3>
+                    <p class="amenity-desc">Grand ballrooms and intimate venues for weddings, conferences, and
+                        celebrations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ DINING SECTION ═══════════════════ -->
+    <section id="dining" class="dining section">
+        <div class="dining-bg">
+            <img src="images/dining.png" alt="CBN Resort dining" loading="lazy">
+            <div class="dining-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="dining-content reveal-up">
+                <span class="section-tag">Culinary Excellence</span>
+                <h2 class="section-title">A Feast Fit<br><em>for Royalty</em></h2>
+                <div class="section-ornament">
+                    <span>✦</span><span>◆</span><span>✦</span>
+                </div>
+                <p class="dining-text">
+                    Our award-winning chefs curate an unforgettable culinary journey — from authentic Middle Eastern
+                    mezze and fragrant biryanis to exquisite international cuisine, each dish is a masterpiece of flavor
+                    and artistry.
+                </p>
+                <div class="dining-features">
+                    <div class="dining-feature">
+                        <div class="dining-feature-icon">🍽️</div>
+                        <div>
+                            <h4>Arabian Spicers</h4>
+                            <p>Signature Middle Eastern cuisine</p>
+                        </div>
+                    </div>
+                    <div class="dining-feature">
+                        <div class="dining-feature-icon">🥂</div>
+                        <div>
+                            <h4>The Gold Lounge</h4>
+                            <p>Premium cocktails & mocktails</p>
+                        </div>
+                    </div>
+                    <div class="dining-feature">
+                        <div class="dining-feature-icon">☕</div>
+                        <div>
+                            <h4>Saffron Café</h4>
+                            <p>Artisan coffee & patisserie</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="#contact" class="btn btn-primary" id="dining-reserve-btn">Reserve a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ GALLERY SECTION ═══════════════════ -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Visual Journey</span>
+                <h2 class="section-title">Experience the<br><em>Magic</em></h2>
+                <div class="section-ornament">
+                    <span>✦</span><span>◆</span><span>✦</span>
+                </div>
+            </div>
+            <div class="gallery-grid reveal-up">
+                <div class="gallery-item gallery-item-large" data-index="0">
+                    <img src="images/hero.png" alt="Resort exterior" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-caption">The Grand Palace</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="1">
+                    <img src="images/room-royal.png" alt="Royal Suite" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-caption">Royal Suite</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="2">
+                    <img src="images/pool.png" alt="Infinity Pool" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-caption">Infinity Pool</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="3">
+                    <img src="images/dining.png" alt="Fine Dining" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-caption">Fine Dining</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="4">
+                    <img src="images/spa.png" alt="Royal Spa" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-caption">Royal Spa</span>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-item-tall" data-index="5">
+                    <img src="images/garden.png" alt="Resort Gardens" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-caption">Palace Gardens</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-index="6">
+                    <img src="images/room-deluxe.png" alt="Deluxe Room" loading="lazy">
+                    <div class="gallery-item-overlay">
+                        <span class="gallery-item-caption">Deluxe Chamber</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lightbox -->
+        <div id="lightbox" class="lightbox">
+            <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+            <button class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous image">‹</button>
+            <button class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next image">›</button>
+            <div class="lightbox-content">
+                <img id="lightbox-img" src="" alt="">
+                <p id="lightbox-caption" class="lightbox-caption"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ TESTIMONIALS SECTION ═══════════════════ -->
+    <section id="testimonials" class="testimonials section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Guest Stories</span>
+                <h2 class="section-title">Words from<br><em>Our Guests</em></h2>
+                <div class="section-ornament">
+                    <span>✦</span><span>◆</span><span>✦</span>
+                </div>
+            </div>
+            <div class="testimonials-carousel reveal-up">
+                <div class="testimonial-track" id="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <blockquote class="testimonial-quote">
+                            "An absolutely magical experience. From the moment we arrived, we felt like royalty. The
+                            Arabian décor, the impeccable service, and the divine food — pure perfection."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">RP</div>
+                            <div>
+                                <strong>Rajesh Patel</strong>
+                                <span>Mumbai, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <blockquote class="testimonial-quote">
+                            "The Royal Suite took my breath away. Every detail — from the hand-carved furniture to the
+                            gold leaf accents — was simply extraordinary. Will definitely return!"
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">SK</div>
+                            <div>
+                                <strong>Sneha Kapoor</strong>
+                                <span>Delhi, India</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">★★★★★</div>
+                        <blockquote class="testimonial-quote">
+                            "We hosted our wedding at CBN Resort and it was beyond our wildest dreams. The ballroom, the
+                            gardens, the food — everything was flawless. Thank you, CBN!"
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <div class="testimonial-avatar">AM</div>
+                            <div>
+                                <strong>Anita & Mohit</strong>
+                                <span>Hyderabad, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn" id="testimonial-prev" aria-label="Previous testimonial">‹</button>
+                    <div class="testimonial-dots" id="testimonial-dots"></div>
+                    <button class="testimonial-btn" id="testimonial-next" aria-label="Next testimonial">›</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ CONTACT SECTION ═══════════════════ -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <span class="section-tag">Get in Touch</span>
+                <h2 class="section-title">Book Your<br><em>Royal Escape</em></h2>
+                <div class="section-ornament">
+                    <span>✦</span><span>◆</span><span>✦</span>
+                </div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal-left">
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <div class="contact-detail">
+                            <div class="contact-detail-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                    <circle cx="12" cy="10" r="3" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>Address</strong>
+                                <p>CBN Resort, Palace Road,<br>Paradise City, India - 500001</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-detail-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-detail-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>Email</strong>
+                                <p>reservations@cbnresort.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-detail">
+                            <div class="contact-detail-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <a href="#" class="social-link" id="social-instagram" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" />
+                                    <circle cx="12" cy="12" r="5" />
+                                    <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" id="social-facebook" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" id="social-twitter" aria-label="Twitter">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link" id="social-youtube" aria-label="YouTube">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path
+                                        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                                    <polygon points="9.75,15.02 15.5,11.75 9.75,8.48" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper reveal-right">
+                    <form class="contact-form" id="contact-form">
+                        <h3>Make a Reservation</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="guest-name">Full Name</label>
+                                <input type="text" id="guest-name" name="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="guest-email">Email</label>
+                                <input type="email" id="guest-email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="guest-phone">Phone</label>
+                                <input type="tel" id="guest-phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="guest-guests">Guests</label>
+                                <select id="guest-guests" name="guests" required>
+                                    <option value="">Select guests</option>
+                                    <option value="1">1 Guest</option>
+                                    <option value="2">2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                    <option value="5+">5+ Guests</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="guest-checkin">Check-in</label>
+                                <input type="date" id="guest-checkin" name="checkin" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="guest-checkout">Check-out</label>
+                                <input type="date" id="guest-checkout" name="checkout" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="guest-room">Room Type</label>
+                            <select id="guest-room" name="room" required>
+                                <option value="">Select room type</option>
+                                <option value="deluxe">Deluxe Chamber — ₹4,500/night</option>
+                                <option value="royal">Royal Palace Suite — ₹12,000/night</option>
+                                <option value="villa">Private Pool Villa — ₹18,000/night</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="guest-message">Special Requests</label>
+                            <textarea id="guest-message" name="message" rows="3"
+                                placeholder="Any special requests or preferences..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="form-submit-btn">
+                            <span>Confirm Reservation</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="contact-map reveal-up">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5!2d78.47!3d17.38!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDIyJzQ4LjAiTiA3OMKwMjgnMTIuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+                    width="100%" height="400" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy"
+                    title="CBN Resort Location" id="resort-map">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══════════════════ FOOTER ═══════════════════ -->
+    <footer class="footer">
+        <div class="footer-arabesque">
+            <svg viewBox="0 0 1200 80" preserveAspectRatio="none">
+                <path d="M0,40 Q150,0 300,40 Q450,80 600,40 Q750,0 900,40 Q1050,80 1200,40" stroke="var(--gold)"
+                    stroke-width="1" fill="none" opacity="0.3" />
+                <path d="M0,40 Q150,80 300,40 Q450,0 600,40 Q750,80 900,40 Q1050,0 1200,40" stroke="var(--gold)"
+                    stroke-width="1" fill="none" opacity="0.3" />
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 2L24 10L33 12L26 19L28 28L20 24L12 28L14 19L7 12L16 10L20 2Z"
+                                fill="currentColor" />
+                            <circle cx="20" cy="20" r="6" fill="none" stroke="currentColor" stroke-width="1.5" />
+                        </svg>
+                        <span>CBN Resort</span>
+                    </a>
+                    <p class="footer-tagline">Where Arabian Royalty Meets Modern Luxury. Experience the magic of a
+                        thousand and one nights.</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#rooms">Rooms & Suites</a></li>
+                        <li><a href="#amenities">Amenities</a></li>
+                        <li><a href="#dining">Dining</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#contact">Reservations</a></li>
+                        <li><a href="#amenities">Spa & Wellness</a></li>
+                        <li><a href="#amenities">Event Hosting</a></li>
+                        <li><a href="#dining">Room Service</a></li>
+                        <li><a href="#contact">Concierge</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Connected</h4>
+                    <p>Subscribe for exclusive offers and royal experiences.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" id="newsletter-email" placeholder="Your email address" required>
+                        <button type="submit" aria-label="Subscribe">→</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 CBN Resort. All rights reserved.</p>
+                <p>Crafted with <span class="footer-heart">♥</span> for royalty</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ═══════════════════ BACK TO TOP ═══════════════════ -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6" />
+        </svg>
+    </button>
+
+    <!-- ═══════════════════ WhatsApp FAB ═══════════════════ -->
+    <a href="https://wa.me/919876543210" target="_blank" class="whatsapp-fab" id="whatsapp-fab"
+        aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" fill="currentColor">
+            <path
+                d="M16 3C8.832 3 3 8.832 3 16c0 2.293.597 4.523 1.73 6.496L3 29l6.746-1.715A12.94 12.94 0 0 0 16 29c7.168 0 13-5.832 13-13S23.168 3 16 3zm0 23.5a10.96 10.96 0 0 1-5.605-1.531l-.402-.238-4.168 1.063 1.094-3.988-.262-.418A10.96 10.96 0 0 1 5 16C5 9.934 9.934 5 16 5s11 4.934 11 11-4.934 11-11 11zm6.027-8.234c-.332-.168-1.957-.965-2.262-1.074-.305-.11-.527-.168-.75.168-.222.336-.86 1.074-1.055 1.297-.195.222-.39.25-.722.082-.332-.168-1.402-.516-2.668-1.648-.988-.879-1.652-1.965-1.847-2.297-.195-.332-.02-.512.148-.676.148-.148.332-.39.5-.585.168-.195.222-.332.332-.555.11-.222.055-.418-.027-.585-.082-.168-.75-1.809-1.027-2.473-.273-.656-.551-.567-.75-.578l-.637-.012a1.226 1.226 0 0 0-.887.418c-.305.332-1.164 1.137-1.164 2.773 0 1.637 1.191 3.219 1.359 3.441.168.222 2.344 3.582 5.684 5.023.793.344 1.414.547 1.898.703.797.254 1.523.219 2.098.133.64-.098 1.957-.8 2.234-1.574.277-.773.277-1.437.195-1.574-.082-.137-.305-.222-.637-.39z" />
+        </svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
